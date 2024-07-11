@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        /* To use Universal We can use the * [It Will Apply On All the things] */
+        *{
+              margin: 0;  
+        }
+        /* This margin will have no padding at All  */
+        p{
+            color: red;
+        }
+        #fifth{
+            font-size: 50px;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .ass{
+            font-weight: 800;
+        }
+        .shobuj{
+            color: green;
+        }
+        input{
+            font-size: larger;
+        }
+        .gg{
+            color:red;
+            background-color: aqua;
+        }
+        .hed{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="gg">Explore Mixed Selectors</h3>
+    <p>My First Line CSS</p>
+    <p>My Second Line CSS</p>
+    <p class="yellow ass">My Third Line CSS</p>
+    <p>My Fourth Line CSS</p>
+    <p id="fifth">My Fifth Line CSS</p>
+    <p>My Sixth Line CSS</p>
+    <p>My Seventh Line CSS</p>
+    <p class="hed">This is The Text is Defining The Task </p>
+    <ol>
+        <li>Element Selector </li>
+        <li>Id Selector</li>
+        <li class="shobuj ass yellowfhdr" >Class Selector</li>
+        <li>Universal Selector</li>
+    </ol>
+    <br>
+    <br>
+    <!-- Now Here We Will See How To make the Attribute Selector For This  -->
+    <p>Enter The Password Here</p>
+    <br>
+    <form action="">
+        <input type="text" id="" placeholder="Enter Any Text Here">
+        <br>
+        <br>
+        <input type="email" name="" id="" placeholder="Enter your pass Word Here"> 
+        <!-- Question: Why i haven't use the any Special Character before the input in defining selector in the <style> tag  -->
+    </form>
+    <div>
+        <form>
+            <input type="text">
+            <br>
+            <br>
+
+            <input type="password" id="" placeholder="Enter Your Password Here">
+            </form> 
+            <br>
+            <br>
+    </div>
+    <div>
+        <!-- Here We will Create a image source File To See it  -->
+        <button><a href="https://www.w3schools.com/css/paris.jpg">Click Here For The Picture</a>
+    </div>
+</body>
+</html>

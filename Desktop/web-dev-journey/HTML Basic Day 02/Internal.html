@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <!--In internal CSS , you have to add <style> tag before the <title> 
+        this CSS tag is Used to reduce the Repetation of CSS tag that is used in the HTML-->
+        <style>
+            #short{
+                color: red;
+                text-align: center;
+            }
+            p{
+                background-color:blue;
+                width: 50%;
+            }
+            li{
+                color: hwb(0 36% 20%);
+                width: 50%;
+            }
+            .player{
+                text-align: right;
+            }
+            </style>
+</head>
+<body>
+    <p id="short"> Short form is CSS</p>
+    <p>Example to Show That We Don't Need To Repeat it </p>
+    <ul>
+        <li class="player">This is Used To Show you How Internal CSS is Being Used</li>
+        <li>This is The Second</li>
+        <li class="player"> This is Third</li>
+        <li class="player"> This is Fourth</li>
+    </ul>
+</body>
+</html>
