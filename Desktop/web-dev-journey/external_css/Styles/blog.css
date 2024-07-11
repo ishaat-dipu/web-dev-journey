@@ -1,0 +1,40 @@
+.header{
+    height: 300px;
+    background-color: antiquewhite;
+    background-image:url('Penguin\ in\ the\ desert.jpeg') ;
+/* background-size: 300px 200px; */
+    /* background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+     */
+     /* background-size: contain; */
+     
+     /* Now for the Relative image */
+     background-image: url('../peakpx.jpg');
+}
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    margin: 50px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 20px blueviolet;
+    padding: 20px;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.incident{
+    border: 2px solid purple;
+    /* display: block; */
+    /* display: inline-block; */
+}
+.dido{
+    border: 2px solid peru;
+    height: 60px;
+    /* display: inline-block; */
+
+}
